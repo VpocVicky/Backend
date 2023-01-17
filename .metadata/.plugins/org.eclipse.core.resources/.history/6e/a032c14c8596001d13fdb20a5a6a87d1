@@ -1,0 +1,6 @@
+package com.praticeSpringboot;
+
+public class Car extends Engine{
+	
+	
+}

@@ -1,0 +1,9 @@
+package com.praticeSpringboot;
+
+public class Car {
+	
+	private IEngine eng;
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package com.praticeSpringboot;
+
+public class Car {
+	
+	public void drive() {
+		//int start = super.start();
+		
+		
+		if(start>=1) {
+			System.out.println("journey Started.....");
+		}
+	}
+	
+	
+}

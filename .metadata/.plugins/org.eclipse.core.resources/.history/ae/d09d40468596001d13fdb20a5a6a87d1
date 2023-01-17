@@ -1,0 +1,13 @@
+package com.praticeSpringboot;
+
+public class Car extends Engine{
+	
+	private IEngine eng;
+	
+	private void eng() {
+		int start = eng.start();
+		if(start>0) {
+			System.out.println("Engine Started......");
+		}
+	}
+}

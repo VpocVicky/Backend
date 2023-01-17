@@ -1,0 +1,16 @@
+package com.praticeSpringboot;
+
+public class Car {
+	
+	//Tightly coupling..
+	public void drive() {
+		//int start = super.start();
+		Engine eng = new Engine();
+		int start = eng.start();
+		if(start>=1) {
+			System.out.println("journey Started.....");
+		}
+	}
+	
+	
+}

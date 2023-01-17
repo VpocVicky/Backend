@@ -1,0 +1,13 @@
+package com.praticeSpringboot;
+
+public class Car extends Engine{
+	
+	public void drive() {
+		int start = super.start();
+		if(start>1) {
+			
+		}
+	}
+	
+	
+}
